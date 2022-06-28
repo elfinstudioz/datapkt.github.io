@@ -221,13 +221,13 @@ a{text-decoration: none; color: black;}
 
 .footer {background: #2C2627; padding: 50px; color: #fff; font-size: 12px;}
 
-.ftrtop {text-align: right; margin: 0; float: right; opacity: 0.7; width: 50%;}
+.ftrtop {text-align: right; margin: 0; float: right; opacity: 0.7; width: 55%;}
 .ftrtop span {display: block;}
 .footer .ftrtop label {display: block; color: #fff;}
 .footer .ftrtop a {color: #fff !important; font-size: 12px; display: block; margin: 10px 0;}
 
 
-.footer p {width: 48%;}
+.footer p {width: 45%;}
 .footer p span {opacity: 0.7;}
 
 

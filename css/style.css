@@ -117,7 +117,7 @@ a{text-decoration: none; color: black;}
 .dp-process .process label {display: block; line-height: 30px; font-size: 0.9rem;}
 
 
-.service-main {background: #fff; padding:3% 0; box-sizing: border-box; text-align: center;}
+.service-main {background: #fff; padding:3% 0 0; box-sizing: border-box; text-align: center;}
 
 .service-main .service-left .bullets {padding: 10px 0; display: none;}
 .service-main .service-left .bullets span {display: inline-block; margin: 0 10% 0 0; font-size: 1rem; text-transform: uppercase; color: #BC2C3D; font-weight: 600;}
@@ -159,7 +159,7 @@ a{text-decoration: none; color: black;}
 
 .industries {padding: 0; width: 100%;}
 
-.industries .ind-names {text-align: center; padding: 0 0 50px 0; width: 70%; margin: 0 auto;}
+.industries .ind-names {text-align: center; padding: 0 0 50px 0; width: 50%; margin: 0 auto;}
 
 .industries .ind-names .indus-name, .industries .ind-names .indus-name2 {background:;}
 
@@ -247,6 +247,9 @@ a{text-decoration: none; color: black;}
 
 
 .contact {}
+
+
+
 
 
 

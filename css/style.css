@@ -95,7 +95,7 @@ a{text-decoration: none; color: black;}
 
 
 
-.whydatapkt {width: 30%; padding: 0 50px; margin: 150px 0; box-sizing: border-box; display: inline-block; vertical-align: top;}
+.whydatapkt {width: 30%; padding: 0 50px; margin: 220px 0; box-sizing: border-box; display: inline-block; vertical-align: top;}
 .whydatapkt h2 {font-size: 2rem; line-height: 34px; margin: 0 0 20px 0; color: #bc2c3c;}
 
 
@@ -103,7 +103,7 @@ a{text-decoration: none; color: black;}
 
 .whydatapkt p {line-height: 30px; font-size: 1rem;}
 
-.dp-process {width: 69%; padding: 20px 0; display: inline-block; vertical-align: top;}
+.dp-process {width: 69%; padding: 110px 0; display: inline-block; vertical-align: top;}
 .dp-process .process {display: inline-block; vertical-align: top; width: 49%; padding: 20px 50px; box-sizing: border-box;}
 .dp-process .process i {display: block; height: 80px; width: 80px;}
 
@@ -132,6 +132,8 @@ a{text-decoration: none; color: black;}
 
 .service-main .service-right p {display: inline-block; vertical-align: top; text-align: center; margin: 0 0 0 0; width: 20%; border-radius: 4px; transition: all .2s ease-in-out;}
 .service-main .service-right p:last-child {margin: 0;}
+.service-main .service-right p:hover {transform: scale(1.2);}
+
 
 .service-main .service-right p i {width: 180px; height: 180px; display: inline-block; margin-bottom:10px;}
 .service-main .service-right p label {display: block; font-weight: 600; text-transform: uppercase;}
@@ -160,8 +162,8 @@ a{text-decoration: none; color: black;}
 .industries {padding: 0; width: 100%;}
 
 .industries .ind-names {text-align: center; padding: 0 0 50px 0; width: 50%; margin: 0 auto;}
-
 .industries .ind-names .indus-name, .industries .ind-names .indus-name2 {}
+.industries .ind-names .indus-name:hover, .industries .ind-names .indus-name2:hover {transform: scale(1.1);}
 
 .industries .ind-names .indus-name {display: block; text-align: left; width: 100%;}
 .industries .ind-names .indus-name i {width: 220px; height: 220px; display: inline-block; vertical-align:middle; margin: 0 20px 0 0;}
@@ -211,7 +213,7 @@ a{text-decoration: none; color: black;}
 .testimonial .test-left span i {font-size: 0.8rem; color: #3f3f3f; font-style: normal;}
 
 
-.drone-pilot {background:  rgb(231, 174, 7, 0.1); padding: 10% 5%; box-sizing: border-box;}
+.drone-pilot {background:  rgb(231, 174, 7, 0.1); padding: 1% 5%; box-sizing: border-box;}
 .drone-pilot .pilot-left {width: 45%; background: url(../images/banner-pilot.png) no-repeat center center; height: 430px; display: inline-block; vertical-align: middle;}
 .drone-pilot .pilot-right {width: 54%; box-sizing: border-box; display: inline-block; vertical-align: middle;}
 .drone-pilot .pilot-right h2 {font-size: 2rem; line-height: 3rem; color: #bc2c3c; text-transform: capitalize;}
@@ -242,7 +244,10 @@ a{text-decoration: none; color: black;}
 .frm p {margin: 0 0 30px 0; text-align: left;}
 .frm p label {display: block; font-size: 0.9rem; margin: 0 0 15px 0; font-weight: 600;}
 .frm p span {display: block;}
-.frm p input {padding:15px; border: 1px solid #d5d3d3; border-radius: 4px; width: 100%; box-sizing: border-box; font-size: 16px; font-family: 'Montserrat', sans-serif; outline: #bc2c3c;}
+
+.frm p input.w80p {width: 81.5% !important;}
+.frm p input {padding:15px; border: 1px solid #d5d3d3; border-radius: 4px; width: 100%; box-sizing: border-box; font-size: 16px; font-family: 'Montserrat', sans-serif; outline: #bc2c3c; display: inline-block; vertical-align: middle;}
+.frm p select {padding: 15px; border: 1px solid #d5d3d3; border-radius: 4px; box-sizing: border-box; font-size: 16px; font-family: 'Montserrat', sans-serif; outline: #bc2c3c; display: inline-block; vertical-align: middle; width: auto; margin: 0 15px 0 0; background: url(../images/down-arrow.svg) no-repeat 50px center; background-size: auto 15px;}
 .frm p input:focus {border: 1px solid #bc2c3c;}
 
 

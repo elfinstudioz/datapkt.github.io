@@ -274,7 +274,7 @@ a{text-decoration: none; color: black;}
   .client-logos label {margin: 0 4% 6% 0; height: 40px; width: 70px;}
 
   .whydatapkt {width: 100%; margin: 0; padding: 0 30px;}
-  .dp-process {width: 100%;}
+  .dp-process {width: 100%; padding: 110px 0 0;}
   .dp-process .process {width: 100%; padding: 20px;}
 
 
@@ -326,6 +326,9 @@ a{text-decoration: none; color: black;}
   .frm p {margin: 0 0 15px 0;}
   .frm p label {margin: 0 0 5px 0; font-size: 0.8rem;}
   .frm p input {padding: 10px 5px;}
+  .frm p input.w80p {width: 77.5% !important;}
+  .frm p select {padding: 10px 5px 10px 10px; background-position: 35px !important;}
+
 
   .drone-pilot .pilot-left {display: block; width: 100%; padding: 30px 0; background-size: contain; height: 215px;}
   .drone-pilot .pilot-right {display: block; width: 100%; padding: 0 20px 20px 20px;}

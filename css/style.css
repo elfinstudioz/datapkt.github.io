@@ -157,7 +157,7 @@ a{text-decoration: none; color: black;}
 .ai-image .ind-head h2 {text-transform: capitalize; margin: 0 0 20px; font-size: 2rem; letter-spacing: 2px; line-height: 30px; color: #bc2c3c;}
 .ai-image .ind-head p {font-size: 1rem; text-transform: capitalize;}
 
-.ai_engine {background: url(../images/ai-engine.png) no-repeat center center/contain; width: 100%; height: 500px;}
+.ai_engine {background: url(../images/ai-engine.jpg) no-repeat center center/contain; width: 100%; height: 500px;}
 
 .industries {padding: 0; width: 100%;}
 
@@ -293,7 +293,7 @@ a{text-decoration: none; color: black;}
   .ai-image {padding: 20px; padding: 0 20px;}
   .ai-image .ind-head h2 {font-size: 1.3rem; font-weight: 700; margin: 0 0 10px 0;}
   .ai-image .ind-head p {letter-spacing: -1px;}
-  .ai_engine {background: url(../images/ai-engine.png) no-repeat center 20px/contain; width: 100%; height: 220px;}
+  .ai_engine {background: url(../images/ai-engine.jpg) no-repeat center 20px/contain; width: 100%; height: 220px;}
   
   .industries {padding: 0 20px; box-sizing: border-box;}
   

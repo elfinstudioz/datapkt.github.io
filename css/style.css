@@ -326,7 +326,7 @@ a{text-decoration: none; color: black;}
   .frm p {margin: 0 0 15px 0;}
   .frm p label {margin: 0 0 5px 0; font-size: 0.8rem;}
   .frm p input {padding: 10px 5px;}
-  .frm p input.w80p {width: 77.5% !important;}
+  .frm p input.w80p {width: 76.5% !important;}
   .frm p select {padding: 10px 5px 10px 10px; background-position: 35px !important;}
 
 

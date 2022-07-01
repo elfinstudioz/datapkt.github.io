@@ -246,7 +246,7 @@ a{text-decoration: none; color: black;}
 .frm p span {display: block;}
 
 .frm p input.w80p {width: 81.5% !important;}
-.frm p input {padding:15px; border: 1px solid #d5d3d3; border-radius: 4px; width: 100%; box-sizing: border-box; font-size: 16px; font-family: 'Montserrat', sans-serif; outline: #bc2c3c; display: inline-block; vertical-align: middle;}
+.frm p input {padding:15px; border: 1px solid #d5d3d3; border-radius: 4px; width: 100%; box-sizing: border-box; font-size: 14px; font-family: 'Montserrat', sans-serif; outline: #bc2c3c; display: inline-block; vertical-align: middle;}
 .frm p select {padding: 15px; border: 1px solid #d5d3d3; border-radius: 4px; box-sizing: border-box; font-size: 16px; font-family: 'Montserrat', sans-serif; outline: #bc2c3c; display: inline-block; vertical-align: middle; width: auto; margin: 0 15px 0 0; background: url(../images/down-arrow.svg) no-repeat 50px center; background-size: auto 15px;}
 .frm p input:focus {border: 1px solid #bc2c3c;}
 

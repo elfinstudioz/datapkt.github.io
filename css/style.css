@@ -1,5 +1,5 @@
 *{box-sizing: border-box;}
-body{font-family: 'Montserrat', sans-serif; color: #2C2627; font-size: 14px;    margin: 0px; line-height: 20px;}
+body{font-family: 'Montserrat', sans-serif; color: #2C2627; font-size: 14px;    margin: 0px; line-height: 20px; -webkit-text-size-adjust:none; }
 
 html {scroll-behavior: smooth !important;}
 ul, p, h1, h2, h3, h4, select{margin: 0; padding: 0;}

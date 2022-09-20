@@ -153,15 +153,15 @@ a{text-decoration: none; color: black;}
 
 
 .ai-image {position: relative; background: rgb(231, 174, 7, 0);}
-.ai-image .ind-head {text-align: center; padding: 5% 0 0; box-sizing: border-box;}
+.ai-image .ind-head {text-align: center; padding: 2% 0 0; box-sizing: border-box;}
 .ai-image .ind-head h2 {text-transform: capitalize; margin: 0 0 20px; font-size: 2rem; letter-spacing: 2px; line-height: 30px; color: #bc2c3c;}
 .ai-image .ind-head p {font-size: 1rem; text-transform: capitalize;}
 
 .ai_engine {background: url(../images/ai-engine.jpg) no-repeat center center/contain; width: 100%; height: 500px;}
 
-.industries {padding: 0; width: 100%; background: url(../images/industry_bg.jpg) repeat-y top center/contain;}
+.industries {padding: 0; width: 100%; background: url(../images/industry_bg.jpg) repeat-y top center/contain; position: relative; top: -14px;}
 
-.industries .ind-names {text-align: center; padding: 0 60px; width: 65%; margin: 0 auto; background: #fff; box-shadow: 0 0 0 1px #dadce0;}
+.industries .ind-names {text-align: center; padding: 0 60px; width: 65%; margin: 0 auto; background: #fff; box-shadow: 0px -1px 0px 1px #dadce0 inset}
 .industries .ind-names .indus-name, .industries .ind-names .indus-name2 {}
 .industries .ind-names .indus-name:hover, .industries .ind-names .indus-name2:hover {transform: scale(1.1);}
 

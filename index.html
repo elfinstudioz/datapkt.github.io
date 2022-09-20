@@ -8,26 +8,35 @@
 <meta property="og:image" content="https://datapktaviation.com/images/datapkt-logo.svg" />
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1" >
+
+<style>
+</style>
+
 <link rel="stylesheet" href="css/style.css" />
+
 </head>
 <body>
+
+
+         
 
     
     <section id="main" class="fullheight">
         <!-- Top Section -->
         <div class="banner-image">
-    <div id="bm"></div>
-    <script src="lottie.js"></script>
-    <script>
-        var animation = bodymovin.loadAnimation({
-            container: document.getElementById('bm'),
-            renderer: 'svg',
-            loop: true,
-            autoplay: true,
-            path: 'motion.json'
-  })
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.4/lottie_svg.min.js"></script>     
+
+            <div id="bm"></div>
+            <script src="lottie.js" ></script>
+            <script>
+                var animation = bodymovin.loadAnimation({
+                    container: document.getElementById('bm'),
+                    renderer: 'svg',
+                    loop: true,
+                    autoplay: true,
+                    path: 'motion.json'
+          })
+            </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.4/lottie_svg.min.js"></script>   
         
 
             <div class="main-text">
@@ -41,6 +50,9 @@
         </div>
     </section>
     <!-- Top Section -->
+    
+    
+
 
     <!-- Partner Section -->
     <section id="partner">
@@ -78,6 +90,8 @@
         </div>
     </section>
     <!-- Partner Section -->
+
+    
 
     <!-- Services Section -->
     <section id="services" class="fullheight">
@@ -135,20 +149,37 @@
         </div>
     </section>
     <!-- Services Section -->
+    
+
+
+
 
     <!-- Ai Engine -->
-    <section id="ai_engine" class="fullheight">
-        <div class="ai-image fullheight" style="padding: 20px 0 !important;">
+    <section id="ai_engine" class="">
+        <div class="ai-image">
             <div class="ind-head">
                 <h2>DATAPKT AI Engine</h2>
                 <p>is transforming the world we live in.</p>
             </div>
-
-            <div class="ai_engine">
-            </div>    
         </div>
+
+        <!-- Motion ai -->
+        <div id="ai" style="min-height: 750px !important; background: red; max-height: 750px !important;"></div>
+        <script src="lottie.js"></script>
+        <script>
+        var animation = bodymovin.loadAnimation({
+        container: document.getElementById('ai'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'aiengine.json'
+        })
+        </script>
+        <!-- Motion ai -->
+        
+
     </section>
-    <!-- Ai Engine -->
+    
 
     <!-- Industries -->
     <section id="industries">

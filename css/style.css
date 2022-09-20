@@ -130,7 +130,7 @@ a{text-decoration: none; color: black;}
 .service-main .service-right {margin: 5% 0 0;}
 
 
-.service-main .service-right p {display: inline-block; vertical-align: top; text-align: center; margin: 0 0 0 0; width: 20%; border-radius: 4px; transition: all .2s ease-in-out;}
+.service-main .service-right p {display: inline-block; vertical-align: top; text-align: center; margin: 0 50px 0 0; width: 20%; border-radius: 4px; transition: all .2s ease-in-out;}
 .service-main .service-right p:last-child {margin: 0;}
 .service-main .service-right p:hover {transform: scale(1.2);}
 
@@ -159,9 +159,9 @@ a{text-decoration: none; color: black;}
 
 .ai_engine {background: url(../images/ai-engine.jpg) no-repeat center center/contain; width: 100%; height: 500px;}
 
-.industries {padding: 0; width: 100%;}
+.industries {padding: 0; width: 100%; background: url(../images/industry_bg.jpg) repeat-y top center/contain;}
 
-.industries .ind-names {text-align: center; padding: 0 0 50px 0; width: 50%; margin: 0 auto;}
+.industries .ind-names {text-align: center; padding: 0 60px; width: 65%; margin: 0 auto; background: #fff; box-shadow: 0 0 0 1px #dadce0;}
 .industries .ind-names .indus-name, .industries .ind-names .indus-name2 {}
 .industries .ind-names .indus-name:hover, .industries .ind-names .indus-name2:hover {transform: scale(1.1);}
 
@@ -234,7 +234,6 @@ a{text-decoration: none; color: black;}
 
 
 
-
 .whtBlock {width: 100%; padding: 5% 30%; text-align: left; margin: 0 auto; box-sizing: border-box;}
 .whtBlock h2 {padding: 10px 0; font-size: 2rem; line-height: 2rem; text-transform: capitalize; text-align: center; margin: 0 0 30px; color: #bc2c3c;}
 
@@ -245,7 +244,7 @@ a{text-decoration: none; color: black;}
 .frm p label {display: block; font-size: 0.9rem; margin: 0 0 15px 0; font-weight: 600;}
 .frm p span {display: block;}
 
-.frm p input.w80p {width: 81.5% !important;}
+.frm p input.w80p {width: 80.5% !important;}
 .frm p input {padding:15px; border: 1px solid #d5d3d3; border-radius: 4px; width: 100%; box-sizing: border-box; font-size: 16px; font-family: 'Montserrat', sans-serif; outline: #bc2c3c; display: inline-block; vertical-align: middle;}
 .frm p select {padding: 15px; border: 1px solid #d5d3d3; border-radius: 4px; box-sizing: border-box; font-size: 16px; font-family: 'Montserrat', sans-serif; outline: #bc2c3c; display: inline-block; vertical-align: middle; width: auto; margin: 0 15px 0 0; background: url(../images/down-arrow.svg) no-repeat 50px center; background-size: auto 15px;}
 .frm p input:focus {border: 1px solid #bc2c3c;}

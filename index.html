@@ -26,19 +26,6 @@
         <div class="banner-image">
 
             <div id="bm"></div>
-            <script src="lottie.js" ></script>
-            <script>
-                var animation = bodymovin.loadAnimation({
-                    container: document.getElementById('bm'),
-                    renderer: 'svg',
-                    loop: true,
-                    autoplay: true,
-                    path: 'motion.json'
-          })
-            </script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.4/lottie_svg.min.js"></script>   
-        
-
             <div class="main-text">
                 <a href="#"class="logo"></a>
                 <span>We Automate</span>
@@ -154,31 +141,21 @@
 
 
 
-    <!-- Ai Engine -->
-    <section id="ai_engine" class="">
-        <div class="ai-image">
-            <div class="ind-head">
-                <h2>DATAPKT AI Engine</h2>
-                <p>is transforming the world we live in.</p>
-            </div>
+   <!-- Ai Engine -->
+   <section id="ai_engine" class="">
+    <div class="ai-image">
+        <div class="ind-head">
+            <h2>DATAPKT AI Engine</h2>
+            <p>is transforming the world we live in.</p>
         </div>
+    </div>
 
-        <!-- Motion ai -->
-        <div id="ai"></div>
-        <script src="lottie.js"></script>
-        <script>
-        var animation = bodymovin.loadAnimation({
-        container: document.getElementById('ai'),
-        renderer: 'svg',
-        loop: true,
-        autoplay: true,
-        path: 'aiengine.json'
-        })
-        </script>
-        <!-- Motion ai -->
-        
+    <!-- Motion ai -->
+    <div id="ai"></div>
+    <!-- Motion ai -->
+    
 
-    </section>
+</section>
     
 
     <!-- Industries -->
@@ -498,5 +475,35 @@
     <!-- Drone pilot network -->
 
     </body>
+
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.4/lottie_svg.min.js"></script>   
+    <script src="lottie.js" ></script>
+            <script>
+                function initializeBMLottie() {
+                    var animation = bodymovin.loadAnimation({
+                    container: document.getElementById('bm'),
+                    renderer: 'svg',
+                    loop: true,
+                    autoplay: true,
+                    path: 'motion.json'
+             });
+                }
+
+                function initializeAILottie() {
+                    var animationOther = bodymovin.loadAnimation({
+                container: document.getElementById('ai'),
+                renderer: 'svg',
+                loop: true,
+                autoplay: true,
+                path: 'aiengine.json'
+            });
+                }
+                $(function() {
+                    console.log( "ready!" );
+                    initializeBMLottie();
+                    initializeAILottie();
+                });
+            </script>
     </html>
     

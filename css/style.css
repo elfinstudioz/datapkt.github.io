@@ -62,15 +62,15 @@ a{text-decoration: none; color: black;}
 @keyframes animate {
   
   0% {
-      content: "Mapping";
+      content: "Operations";
   }
 
   50% {
-      content: "Inspection";
+      content: "Mapping";
   }
 
   75% {
-      content: "Public Safety";
+      content: "Automation";
   }
 }
 

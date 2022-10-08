@@ -65,13 +65,16 @@ a{text-decoration: none; color: black;}
       content: "Operations";
   }
 
-  50% {
+  30% {
       content: "Mapping";
   }
 
-  75% {
-      content: "Automation";
+  60% {
+      content: "Inspection";
   }
+  80% {
+    content: "Public Safety";
+}
 }
 
 
@@ -161,11 +164,11 @@ a{text-decoration: none; color: black;}
 
 .industries {padding: 0; width: 100%; background: url(../images/industry_bg.jpg) repeat-y top center/contain; position: relative; top: -14px;}
 
-.industries .ind-names {text-align: center; padding: 0 60px; width: 65%; margin: 0 auto; background: #fff; box-shadow: 0px -1px 0px 1px #dadce0 inset}
+.industries .ind-names {text-align: center; padding: 0 100px; width: 100%; margin: 0 auto; background: #fff; box-shadow: 0px -1px 0px 1px #dadce0 inset}
 .industries .ind-names .indus-name, .industries .ind-names .indus-name2 {}
 .industries .ind-names .indus-name:hover, .industries .ind-names .indus-name2:hover {transform: scale(1.1);}
 
-.industries .ind-names .indus-name {display: block; text-align: left; width: 100%;}
+.industries .ind-names .indus-name {display: block; text-align: left; width: 100%; padding: 50px 0;}
 .industries .ind-names .indus-name i {width: 220px; height: 220px; display: inline-block; vertical-align:middle; margin: 0 20px 0 0;}
 .industries .ind-names .indus-name p {display: inline-block; vertical-align:middle; width: 56%;}
 
@@ -191,7 +194,7 @@ a{text-decoration: none; color: black;}
 .industries .ind-names .indus-name2 {display: block; text-align: left; width: 100%;}
 .industries .ind-names .indus-name2 i {width: 220px; height: 220px; display: inline-block; vertical-align:middle;}
 
-.industries .ind-names .indus-name2 p {display: inline-block; vertical-align:middle; width: 56%; text-align: right; margin: 0 20px 0 0;}
+.industries .ind-names .indus-name2 p {display: inline-block; vertical-align:middle; width: 75%; text-align: right; margin: 0 20px 0 0;}
 .industries .ind-names .indus-name2 p label {font-size: 1.2rem; text-transform: uppercase; font-weight: 600; display: block; margin: 0 0 20px 0; color: #bc2c3c;}
 .industries .ind-names .indus-name2 p span {font-size: 0.9rem;}
 

@@ -156,15 +156,18 @@ a{text-decoration: none; color: black;}
 
 
 .ai-image {position: relative; background: rgb(231, 174, 7, 0);}
-.ai-image .ind-head {text-align: center; padding: 2% 0 0; box-sizing: border-box;}
+.ai-image .ind-head {text-align: center; padding: 3% 0; box-sizing: border-box;}
 .ai-image .ind-head h2 {text-transform: capitalize; margin: 0 0 20px; font-size: 2rem; letter-spacing: 2px; line-height: 30px; color: #bc2c3c;}
 .ai-image .ind-head p {font-size: 1rem; text-transform: capitalize;}
 
+
+#ai {width:70%; height:auto; margin: 0 auto;}
+
 .ai_engine {background: url(../images/ai-engine.jpg) no-repeat center center/contain; width: 100%; height: 500px;}
 
-.industries {padding: 0; width: 100%; background: url(../images/industry_bg.jpg) repeat-y top center/contain; position: relative; top: -14px;}
+.industries {padding: 0; width: 100%; position: relative; top: -14px;}
 
-.industries .ind-names {text-align: center; padding: 0 100px; width: 100%; margin: 0 auto; background: #fff; box-shadow: 0px -1px 0px 1px #dadce0 inset}
+.industries .ind-names {text-align: center; padding: 0 100px; width: 100%; margin: 0 auto; background: #fff;}
 .industries .ind-names .indus-name, .industries .ind-names .indus-name2 {}
 .industries .ind-names .indus-name:hover, .industries .ind-names .indus-name2:hover {transform: scale(1.1);}
 
@@ -226,19 +229,24 @@ a{text-decoration: none; color: black;}
 
 .footer {background: #2C2627; padding: 50px; color: #fff; font-size: 12px;}
 
+
+.linkedin {display: inline-block; vertical-align: middle; width: 30px; height: 30px; background:url(../images/linkedin.png) no-repeat center center; background-size: 30px auto;}
+.instagram {display: inline-block; vertical-align: middle; width: 30px; height: 30px; background:url(../images/instagram.png) no-repeat center center; background-size: 30px auto; margin: 0 10px; }
+.facebook {display: inline-block; vertical-align: middle; width: 30px; height: 30px; background:url(../images/facebook.png) no-repeat center center; background-size: 30px auto;}
+
 .ftrtop {text-align: right; margin: 0; float: right; opacity: 0.7; width: 55%;}
 .ftrtop span {display: block;}
 .footer .ftrtop label {display: block; color: #fff;}
 .footer .ftrtop a {color: #fff !important; font-size: 12px; display: block; margin: 10px 0;}
 
 
-.footer p {width: 45%;}
+.footer p {margin: 10px 0 0 0;}
 .footer p span {opacity: 0.7;}
 
 
 
 .whtBlock {width: 100%; padding: 5% 30%; text-align: left; margin: 0 auto; box-sizing: border-box;}
-.whtBlock h2 {padding: 10px 0; font-size: 2rem; line-height: 2rem; text-transform: capitalize; text-align: center; margin: 0 0 30px; color: #bc2c3c;}
+.whtBlock h2 {padding: 10px 0; font-size: 1.4rem; line-height: 2rem; text-transform: capitalize; text-align: left; color: #bc2c3c;}
 
 .wdFull {width: 100%!important;}
 
@@ -302,9 +310,9 @@ height: 100%
 {
   .logo {margin: 25px 200px 14px 10px; height: 30px; width: 146px;}
   .main-text {padding: 20px; width: 100%; top: -2%;}
-  .main-text p {font-size: 0.8rem; margin: 10px 0; line-height: 0.8rem; font-weight: normal; display: none;}
+  .main-text p {font-size: 0.8rem; margin: 5px 0;}
   .main-text span, .main-text label {font-size: 1.5rem; line-height: 2rem;}
-  .main-text a.redbtn {display: none;}
+  .main-text a.redbtn {padding: 5px 10px; font-size: 12px; margin-top: 8px;}
   .client-logos {padding: 20px 0;}
   .client-logos label {margin: 0 4% 6% 0; height: 40px; width: 70px;}
 
@@ -332,14 +340,16 @@ height: 100%
   
   .industries {padding: 0 20px; box-sizing: border-box;}
   
-  .industries .ind-names {width: 100%;}
+  .industries .ind-names {width: 100%; padding: 0 15px;}
 
   .industries .ind-names .indus-name i {margin: 0 20px 0 0; height: 120px; background-size: auto 120px !important; width: 120px;}
   .industries .ind-names .indus-name2 i {margin: 0 20px 0 0; height: 120px; background-size: auto 120px !important; width: 120px;}
 
+  .ftrtop {float: none; margin: 20px 0;}
+  .footer .fL {float: none; text-align: center;}
+  .logowhite {margin: 0 auto 20px;}
 
-
-
+  #ai {width:90%;}
   
   /* .industries .ind-names .indus-name p {} */
 
@@ -385,7 +395,7 @@ height: 100%
     .ai-image .ind-head{padding: 3% 0 0;} 
     .drone-pilot{padding: 2% 6%;}
     .whtBlock{padding: 3% 5%;}
-    .main-text{top: 30%; transform: translateY(-50%);}
+    .main-text{top: 38%; transform: translateY(-50%);}
     .main-text{width:100%;}
     .industries .ind-names .indus-name p label, .industries .ind-names .indus-name2 p label{font-size: 1.0rem; margin: 0 0 5px 0;}
     .industries .ind-names .indus-name2 p span, .industries .ind-names .indus-name p span {font-size: 0.8rem;}
@@ -405,7 +415,7 @@ height: 100%
   @media(max-width:791px) {
     .industries .ind-names .indus-name,
     .industries .ind-names .indus-name2,
-    .client-logos{display: flex; align-items: center; justify-content: center;}
+    .client-logos{display: flex; align-items: top; justify-content: center;}
     .client-logos label{margin: 0; background-size: auto 50px !important;}
     
   }
@@ -438,7 +448,6 @@ height: 100%
     .main-text span,
     .main-text label{font-size: 1rem; line-height: 15px;}
     .main-text p{font-size: 12px;}
-    .main-text p {margin: 5px 0 10px;}
     .logo{width: 140px; margin-bottom: 10px;}
   }
 
@@ -446,6 +455,5 @@ height: 100%
     .main-text span,
     .main-text label{font-size: 1.4rem; line-height: 25px;}
     .main-text p{font-size: 12px;}
-    .main-text p {margin: 5px 0 10px;}
     .logo {width: 140px; margin: 10px 0;}
   }

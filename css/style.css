@@ -14,7 +14,7 @@ header{background-color: #f7f3f0; padding: 20px 0 0 30px;}
 
 a{text-decoration: none; color: black;}
 .logo{background: url(../images/datapkt-logo.svg) no-repeat center left; width: 160px; height: 34px; background-size: contain; display: block; margin: 0 0 20px 0;}
-.logowhite {background: url(../images/datapkt-logo-white.png) no-repeat center left; width: 160px; height: 34px; background-size: contain; display: block; margin: 0 0 20px 0;}
+.logowhite {background: url(../images/datapkt-logo-white.png) no-repeat center left; width: 130px; height: 34px; background-size: contain; display: inline-block; margin: 0;}
 
 
 .nav {display: none;}
@@ -38,6 +38,7 @@ a{text-decoration: none; color: black;}
 .clear40 {height: 40px;}
 .clear80 {height: 80px;}
 
+.bold {font-weight: 600;}
 
 
 
@@ -167,13 +168,13 @@ a{text-decoration: none; color: black;}
 
 .industries {padding: 0; width: 100%; position: relative; top: -14px;}
 
-.industries .ind-names {text-align: center; padding: 0 100px; width: 100%; margin: 0 auto; background: #fff;}
+.industries .ind-names {text-align: center; padding: 0 200px; width: 100%; margin: 0 auto; background: #fff;}
 .industries .ind-names .indus-name, .industries .ind-names .indus-name2 {}
 .industries .ind-names .indus-name:hover, .industries .ind-names .indus-name2:hover {transform: scale(1.1);}
 
 .industries .ind-names .indus-name {display: block; text-align: left; width: 100%; padding: 50px 0;}
 .industries .ind-names .indus-name i {width: 220px; height: 220px; display: inline-block; vertical-align:middle; margin: 0 20px 0 0;}
-.industries .ind-names .indus-name p {display: inline-block; vertical-align:middle; width: 56%;}
+.industries .ind-names .indus-name p {display: inline-block; vertical-align:middle; width: 70%;}
 
 .indus-name, .indus-name2 {padding: 0 0; transition: all .2s ease-in-out;}
 .industries .ind-names .indus-name:last-child, .industries .ind-names .indus-name2:last-child {border-bottom: none; padding-bottom: 0;}
@@ -197,7 +198,7 @@ a{text-decoration: none; color: black;}
 .industries .ind-names .indus-name2 {display: block; text-align: left; width: 100%;}
 .industries .ind-names .indus-name2 i {width: 220px; height: 220px; display: inline-block; vertical-align:middle;}
 
-.industries .ind-names .indus-name2 p {display: inline-block; vertical-align:middle; width: 75%; text-align: right; margin: 0 20px 0 0;}
+.industries .ind-names .indus-name2 p {display: inline-block; vertical-align:middle; width: 70%; text-align: right; margin: 0 20px 0 0;}
 .industries .ind-names .indus-name2 p label {font-size: 1.2rem; text-transform: uppercase; font-weight: 600; display: block; margin: 0 0 20px 0; color: #bc2c3c;}
 .industries .ind-names .indus-name2 p span {font-size: 0.9rem;}
 
@@ -227,7 +228,7 @@ a{text-decoration: none; color: black;}
 .drone-pilot .pilot-right a {}
 
 
-.footer {background: #2C2627; padding: 50px; color: #fff; font-size: 12px;}
+.footer {background: #2C2627; padding: 20px; color: #fff; font-size: 12px; text-align: center;}
 
 
 .linkedin {display: inline-block; vertical-align: middle; width: 30px; height: 30px; background:url(../images/linkedin.png) no-repeat center center; background-size: 30px auto;}
@@ -251,15 +252,15 @@ a{text-decoration: none; color: black;}
 .wdFull {width: 100%!important;}
 
 .frm {}
-.frm p {margin: 0 0 30px 0; text-align: left;}
-.frm p label {display: block; font-size: 0.9rem; margin: 0 0 15px 0; font-weight: 600;}
+.frm p {margin: 0 0 15px 0; text-align: left;}
+.frm p label {display: block; font-size: 0.8rem; margin: 0 0 5px 0; }
 .frm p span {display: block;}
 
-.frm p input.w80p {width: 80.5% !important;}
-.frm p input {padding:15px; border: 1px solid #d5d3d3; border-radius: 4px; width: 100%; box-sizing: border-box; font-size: 16px; font-family: 'Montserrat', sans-serif; outline: #bc2c3c; display: inline-block; vertical-align: middle;}
-.frm p select {padding: 15px; border: 1px solid #d5d3d3; border-radius: 4px; box-sizing: border-box; font-size: 16px; font-family: 'Montserrat', sans-serif; outline: #bc2c3c; display: inline-block; vertical-align: middle; width: auto; margin: 0 15px 0 0; background: url(../images/down-arrow.svg) no-repeat 50px center; background-size: auto 15px;}
+.frm p input.w80p {width: 82% !important;}
+.frm p input {padding:10px 15px; border: 1px solid #d5d3d3; border-radius: 4px; width: 100%; box-sizing: border-box; font-size: 14px; font-family: 'Montserrat', sans-serif; outline: #bc2c3c; display: inline-block; vertical-align: middle;}
+.frm p select {padding: 10px; border: 1px solid #d5d3d3; border-radius: 4px; box-sizing: border-box; font-size: 14px; font-family: 'Montserrat', sans-serif; outline: #bc2c3c; display: inline-block; vertical-align: middle; width: auto; margin: 0 15px 0 0; background: url(../images/down-arrow.svg) no-repeat 33px center; background-size: auto 12px;}
 .frm p input:focus {border: 1px solid #bc2c3c;}
-
+.frm p textarea {padding:10px 15px; border: 1px solid #d5d3d3; border-radius: 4px; width: 100%; box-sizing: border-box; font-size: 14px; font-family: 'Montserrat', sans-serif; outline: #bc2c3c; display: inline-block; vertical-align: middle; height: 80px; overflow: hidden; resize: none;}
 
 .contact {}
 
@@ -282,7 +283,6 @@ a{text-decoration: none; color: black;}
   width: 33.33333333%;
   height: 100%;
   float: left;
-  overflow: hidden
 }
 .test-slider .slider-container .slide img {
 display: block;
@@ -299,10 +299,17 @@ height: 100%
 
 
 
+.contactWrapper {padding: 50px 100px;}
 
+.contactWrapper .contactfrm {float: left; width: 50%;}
+.contactWrapper .contactfrm h2 {font-size: 34px; display: block; margin: 0 20px 0 0; line-height: 42px; color: #bc2c3c;}
+.contactWrapper .contactfrm p {font-size: 18px; line-height: 22px;}
 
+.address_details {float: right; width: 50%; padding: 20px 50px;}
+.address_details p {font-size: 16px; font-weight: 600; margin: 0 0 10px;}
+.address_details span {display: block; margin: 0 0 5px;}
 
-
+.gmapWrapper {margin: 30px 0 0 0;}
 
 
 /* For Mobile Portrait View */
@@ -454,6 +461,6 @@ height: 100%
   @media(max-width:392px) {
     .main-text span,
     .main-text label{font-size: 1.4rem; line-height: 25px;}
-    .main-text p{font-size: 12px;}
+    .main-text p{font-size: 12px; display: none;}
     .logo {width: 140px; margin: 10px 0;}
   }

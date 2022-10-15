@@ -316,7 +316,7 @@ height: 100%
 @media screen and (max-device-width: 480px) and (orientation: portrait)
 {
   .logo {margin: 25px 200px 14px 10px; height: 30px; width: 146px;}
-  .main-text {padding: 20px; width: 100%; top: -2%;}
+  .main-text {padding: 20px; width: 100%; top: 42% !important;}
   .main-text p {font-size: 0.8rem; margin: 5px 0;}
   .main-text span, .main-text label {font-size: 1.5rem; line-height: 2rem;}
   .main-text a.redbtn {padding: 5px 10px; font-size: 12px; margin-top: 8px;}
@@ -347,7 +347,7 @@ height: 100%
   
   .industries {padding: 0 20px; box-sizing: border-box;}
   
-  .industries .ind-names {width: 100%; padding: 0 15px;}
+  .industries .ind-names {width: 100%; padding: 0 !important;}
 
   .industries .ind-names .indus-name i {margin: 0 20px 0 0; height: 120px; background-size: auto 120px !important; width: 120px;}
   .industries .ind-names .indus-name2 i {margin: 0 20px 0 0; height: 120px; background-size: auto 120px !important; width: 120px;}
@@ -356,7 +356,7 @@ height: 100%
   .footer .fL {float: none; text-align: center;}
   .logowhite {margin: 0 auto 20px;}
 
-  #ai {width:90%;}
+  #ai {width:90%; margin: 20px 0 0 0;}
   
   /* .industries .ind-names .indus-name p {} */
 
@@ -378,13 +378,24 @@ height: 100%
   .frm p {margin: 0 0 15px 0;}
   .frm p label {margin: 0 0 5px 0; font-size: 0.8rem;}
   .frm p input {padding: 10px 5px;}
-  .frm p input.w80p {width: 76.5% !important;}
+  .frm p input.w80p {width: 75.5% !important;}
   .frm p select {padding: 10px 5px 10px 10px; background-position: 35px !important;}
 
 
   .drone-pilot .pilot-left {display: block; width: 100%; padding: 30px 0; background-size: contain; height: 215px;}
   .drone-pilot .pilot-right {display: block; width: 100%; padding: 0 20px 20px 20px;}
   .drone-pilot .pilot-right h2 {font-size: 1.3rem; font-weight: 700; line-height: 2rem;}
+
+
+.contactWrapper {padding: 20px 30px;}
+.contactfrm {float: none !important; width: 100% !important;}
+.address_details {float: none; width: 100%; padding: 0; margin: 30px 0;}
+
+.contactWrapper .contactfrm h2 {font-size: 22px;}
+.contactWrapper .contactfrm p {font-size: 14px;}
+
+
+  
   }
 
   @media(min-width:1200px){
@@ -464,3 +475,6 @@ height: 100%
     .main-text p{font-size: 12px; display: none;}
     .logo {width: 140px; margin: 10px 0;}
   }
+
+
+  #more {display: none;}

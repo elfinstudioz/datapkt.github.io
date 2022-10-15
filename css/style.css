@@ -117,7 +117,7 @@ a{text-decoration: none; color: black;}
 .dp-process .process i.dataautomation {background: url(../images/icon-automation.png) no-repeat center center/80px;}
 
 
-.dp-process .process span {font-weight: 600; display: block; margin: 10px 0; text-transform: uppercase; font-size: 1.2rem; color: #bc2c3c;}
+.dp-process .process span {font-weight: 600; display: block; margin: 10px 0; font-size: 1.2rem; color: #bc2c3c;}
 .dp-process .process label {display: block; line-height: 30px; font-size: 0.9rem;}
 
 
@@ -341,7 +341,6 @@ height: 100%
   .service-main .service-right p:last-child {margin: 0 7% 10%;}
   
   .ai-image {padding: 20px; padding: 0 20px;}
-  .ai-image .ind-head h2 {font-size: 1.3rem; font-weight: 700; margin: 0 0 10px 0;}
   .ai-image .ind-head p {letter-spacing: -1px;}
   .ai_engine {background: url(../images/ai-engine.jpg) no-repeat center 20px/contain; width: 100%; height: 220px;}
   
@@ -366,7 +365,7 @@ height: 100%
   .industries .ind-names .indus-name2 i {background-size: auto 125px; height: 125px;}
   
   .testimonial {padding: 20px;}
-  .testimonial .test-left h2 {font-size: 1.3rem; font-weight: 700;}
+  .testimonial .test-left h2 {font-size: 1.3rem; font-weight: 600;}
   .testimonial .test-left span label {font-size: 0.8rem;}
   .whydatapkt h2 {font-size: 1.3rem; margin: 0 0 10px 0; font-weight: 700; text-align: left;}
   
